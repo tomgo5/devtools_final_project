@@ -7,9 +7,9 @@ We were asked to create a website using Joomla as the content management system 
 
 >What we did:
 
-    1.Installed Docker and Docker Compose and created a docker-compose.yml file to define the Joomla and MySQL services.
+    1.Installed Docker to define the Joomla and MySQL services.
 
-    2.Created and ran the containers using the docker-compose file and ensured that the two services could communicate.
+    2.ensured that the two services could communicate.
 
     3.Accessed the Joomla setup through the browser and completed the installation by connecting it to the MySQL database, creating an admin user, and setting the basic configuration.
 
@@ -34,7 +34,6 @@ We were asked to create a website using Joomla as the content management system 
 >Technologies used:
 
 Docker
-Docker Compose
 Joomla
 MySQL
 mysqldump
@@ -52,19 +51,9 @@ Linux shell environment
 
     Open a browser and go to:
 
-        http://localhost
-
-    Follow the Joomla setup wizard:
-
-        Choose the site name
-
-        Set up the administrator account
-
-        Connect Joomla to the MySQL database (usually the host is "db" and the user and password are defined in docker-compose.yml)
+        http://localhost:8080
 
     Complete the installation.
-
-    After installation, log into the Joomla admin panel and confirm the articles are available (if restoring from a backup).
 
     To restore from a previous backup, use the restore script:
 
