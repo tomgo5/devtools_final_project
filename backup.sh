@@ -24,7 +24,7 @@ fi
 
 # Backup Joomla files
 echo "Backing up Joomla files..."
-docker cp $JOOMLA_CONTAINER_NAME:/var/www/html $BACKUP_DIR/joomla_backup
+docker cp $JOOMLA_CONTAINER_NAME:/var/www/html/. $BACKUP_DIR/joomla_backup
 
 
 if [ $? -eq 0 ]; then
