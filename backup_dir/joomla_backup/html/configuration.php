@@ -4,7 +4,7 @@ class JConfig {
 	public $offline_message = 'This site is down for maintenance.<br>Please check back again soon.';
 	public $display_offline_message = 1;
 	public $offline_image = '';
-	public $sitename = 'devtools_project';
+	public $sitename = 'devtools_final';
 	public $editor = 'tinymce';
 	public $captcha = '0';
 	public $list_limit = 20;
@@ -18,7 +18,7 @@ class JConfig {
 	public $user = 'joomla_user';
 	public $password = 'secretpassword';
 	public $db = 'joomla_db';
-	public $dbprefix = 'wfuib_';
+	public $dbprefix = 'eboor_';
 	public $dbencryption = 0;
 	public $dbsslverifyservercert = false;
 	public $dbsslkey = '';
@@ -27,7 +27,7 @@ class JConfig {
 	public $dbsslcipher = '';
 	public $force_ssl = 0;
 	public $live_site = '';
-	public $secret = 'oA02r2ZHnty8FDrb';
+	public $secret = 'W72mffGN9qDkSkVw';
 	public $gzip = false;
 	public $error_reporting = 'default';
 	public $helpurl = 'https://help.joomla.org/proxy?keyref=Help{major}{minor}:{keyref}&lang={langcode}';
@@ -38,8 +38,8 @@ class JConfig {
 	public $cors_allow_headers = 'Content-Type,X-Joomla-Token';
 	public $mailonline = true;
 	public $mailer = 'mail';
-	public $mailfrom = 'Tom.Goldstein@s.afeka.ac.il';
-	public $fromname = 'devtools_project';
+	public $mailfrom = 'tom.goldstn@gmail.com';
+	public $fromname = 'devtools_final';
 	public $sendmail = '/usr/sbin/sendmail';
 	public $smtpauth = false;
 	public $smtpuser = '';
